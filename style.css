@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'INVADERS.TTF'
+  src: url('/home/kerry/Documents/wdi11/WDI_11_HOMEWORK/Kerry Sng/wk03/2-tue/project_game/INVADERS.TTF');
+
+}
+
+
+body {
+  padding:0;
+  margin:0;
+  background:#666;
+}
+
+#hero {
+  background: red;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+
+#laser{
+  background: #42f498;
+  width: 3px;
+  height: 30px;
+  position: absolute;
+}
+
+#score {
+  color: #ffffff;
+  font-size: 18pt;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+#gameover {
+  color: #ff0000;
+  font-size: 20px;
+  position: absolute;
+  left: 160px;
+  top: 200px;
+  visibility: hidden;
+}
+
+
+.enemy {
+  background: purple;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+}
+
+
+h1 {
+  text-align: center;
+  color: cyan;
+  font-family: 'INVADERS.TTF'
+}
+
+.wrapper {
+  position:absolute;
+  bottom: 10%;
+	left:45%;
+	width:640px;
+	height:30px;
+
+}
+
+body {
+    background: url('/home/kerry/Documents/wdi11/WDI_11_HOMEWORK/Kerry Sng/wk03/2-tue/project_game/background.jpg');
+    background-size: 100% 100%;
+    min-height: 700px;
+  }
+
+footer {
+  position: fixed;
+  left: 25%;
+  bottom: 0;
+  height: 10%;
+  width: 50%;
+  text-align: center;
+}
